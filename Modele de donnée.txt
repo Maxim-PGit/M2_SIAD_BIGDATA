@@ -1,0 +1,33 @@
+ARIMA
+
+Le modèle ARIMA (AutoRegressive Integrated Moving Average) est une classe de modèles statistiques utilisés pour modéliser et prédire des séries temporelles.
+Il combine les composants auto-régressifs, intégrés et à moyenne mobile pour capturer les tendances, les motifs saisonniers et les dépendances temporelles.
+Ses avantages comprennent son interprétabilité, son adaptabilité à divers types de séries temporelles et sa performance sur des données stationnaires.
+Cependant, il peut être sensible aux paramètres, moins adapté aux données fortement non stationnaires et peut avoir des difficultés avec des modèles complexes.
+En résumé, les modèles ARIMA sont utiles mais peuvent avoir des limitations selon la nature des données.
+
+
+RNN :
+
+Le réseau de neurones récurrent (RNN) est un modèle avancé conçu pour traiter des séquences de données, telles que les séries temporelles.
+Ses caractéristiques comprennent une capacité à gérer des dépendances temporelles complexes grâce à une mémoire à court terme, ce qui le rend adaptable aux données non stationnaires.
+Les avantages incluent une flexibilité pour diverses tâches et la capacité à apprendre des dépendances à long terme.
+Cependant, les RNN peuvent rencontrer des problèmes tels que le gradient explosif ou vanishing, peuvent être intensifs en calcul et sont sensibles aux hyperparamètres.
+Le choix entre un modèle ARIMA et un RNN dépend des caractéristiques spécifiques des données et des objectifs du projet.
+
+
+GRU : 
+
+Le réseau de neurones à mémoire à court terme récurrente (GRU) est une version avancée et plus efficace des modèles récurrents.
+Il offre une gestion améliorée des dépendances temporelles à long terme grâce à sa mémoire interne, tout en atténuant les problèmes de gradients associés aux modèles récurrents classiques.
+Les avantages des GRU incluent une efficacité computationnelle accrue par rapport à d'autres architectures récurrentes plus complexes, tout en maintenant des performances robustes.
+Cependant, ils peuvent être moins expressifs que d'autres modèles tels que les LSTM. Le choix entre GRU et d'autres modèles dépend des caractéristiques spécifiques des données et des besoins du projet.
+
+
+LSTM :
+
+Les réseaux de neurones à mémoire à long terme (LSTM) sont des modèles récurrents puissants conçus pour capturer efficacement les dépendances temporelles à long terme dans les séries temporelles et autres séquences.
+Leur architecture complexe intègre des mécanismes de portes pour gérer les problèmes de gradients, les rendant adaptés à des tâches exigeantes en termes de dépendances temporelles.
+Les avantages des LSTM incluent leur capacité à modéliser des relations complexes et à s'adapter à des données variées.
+Cependant, leur complexité computationnelle et leur sensibilité aux hyperparamètres peuvent être des considérations.
+En résumé, les LSTM sont des choix puissants pour des séquences complexes, mais leur utilisation dépend des caractéristiques spécifiques des données et des contraintes de ressources.

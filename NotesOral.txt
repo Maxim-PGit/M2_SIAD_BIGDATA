@@ -1,0 +1,9 @@
+faire des hypothèses 
+Distance au jour de paie
+Faire un mcmd
+Peut être pas supprimer Holiday transferred
+Modifier la moyenne mobile et analyser dessus
+	Analyses sur le type de magasin, cluster etc par rapport à la moyenne
+Un modèle global ? Par magasin ? Par famille
+Faire le graph des ventes par magasin et graph par famille produit
+	Nous dit si on fait un ou plusieurs modèles
